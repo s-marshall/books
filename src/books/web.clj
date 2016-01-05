@@ -25,7 +25,7 @@
        (drawbridge req))
   (GET "/" []
        {:status 200
-        :headers {"Content-Type" "text/plain"}
+        :headers {"Content-Type" "text/html"}
         :body (slurp (io/resource "index.html"))})
   (ANY "*" []
        (route/not-found (slurp (io/resource "404.html")))))
