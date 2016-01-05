@@ -23,6 +23,7 @@
 (defroutes app
   (ANY "/repl" {:as req}
        (drawbridge req))
+  (rout/resources "/")
   (GET "/" []
        {:status 200
         :headers {"Content-Type" "text/html; charset=utf-8"}
