@@ -20,6 +20,8 @@
       (session/wrap-session)
       (basic/wrap-basic-authentication authenticated?)))
 
+(defonce counter (atom 0))
+
 (defroutes app
   (ANY "/repl" {:as req}
        (drawbridge req))
@@ -27,7 +29,11 @@
   (GET "/" []
        {:status 200
         :headers {"Content-Type" "text/html; charset=utf-8"}
-        :body (slurp (io/resource "index.html"))})
+        :body (doall
+                (swap! counter inc)
+                (str
+                (slurp (io/resource "index.html"))
+                     "Visits: " @counter))})
   (ANY "*" []
        (route/not-found (slurp (io/resource "404.html")))))
 
@@ -53,5 +59,5 @@
     (jetty/run-jetty (wrap-app #'app) {:port port :join? false})))
 
 ;; For interactive development:
-;; (.stop server)
-;; (def server (-main))
+(.stop server)
+(def server (-main))
