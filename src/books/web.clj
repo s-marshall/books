@@ -29,10 +29,9 @@
   (GET "/" []
        {:status 200
         :headers {"Content-Type" "text/html; charset=utf-8"}
-        :body (doall
+        :body (do
                 (swap! counter inc)
-                (str
-                (slurp (io/resource "index.html"))
+                (str (slurp (io/resource "index.html"))
                      "Visits: " @counter))})
   (ANY "*" []
        (route/not-found (slurp (io/resource "404.html")))))
