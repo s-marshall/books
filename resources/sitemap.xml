@@ -19,6 +19,10 @@
       <image:caption>Ebook cover of Goodbye by Dazai Osamu</image:caption>
     </image:image>
 
+    <image:image>
+      <image:loc>http://jpopbooks.com/images/bored.jpg</image:loc>
+      <image:caption>Ebook cover of The Bored Samurai by Sasaki Mitsuzo</image:caption>
+    </image:image>
 
     <video:video>
       <video:thumbnail_loc>http://jpopbooks.com/images/hinomaru.jpg</video:thumbnail_loc>
