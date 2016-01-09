@@ -5,13 +5,13 @@
   <url>
     <loc>http://jpopbooks.com</loc>
     <image:image>
-      <image:loc>http://jpopbooks.com/images/cover-red.jpg</image:loc>
+      <image:loc>http://jpopbooks.com/images/hinomaru.jpg</image:loc>
       <image:caption>Ebook cover Hinomaru Hatanosuke</image:caption>
     </image:image>
 
 
     <video:video>
-      <video:thumbnail_loc>http://jpopbooks.com/images/cover-red.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>http://jpopbooks.com/images/hinomaru.jpg</video:thumbnail_loc>
       <video:title>Hinomaru Hatanosuke - Official Manga Trailer</video:title>
       <video:description>Manga trailer for ebook Hinomaru Hatanosuke by Nakajima Kikuo</video:description>
       <video:player_loc>
