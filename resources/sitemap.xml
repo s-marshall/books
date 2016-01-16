@@ -29,6 +29,16 @@
       <image:caption>Ebook cover of Night on the Milky Way Railroad by Miyazawa Kenji</image:caption>
     </image:image>
 
+    <image:image>
+      <image:loc>http://jpopbooks.com/images/baseball.jpg</image:loc>
+      <image:caption>Ebook cover of BASEBALL by Masaoka Shiki</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>http://jpopbooks.com/images/vitaminB.jpg</image:loc>
+      <image:caption>Ebook cover of Recollections of Vitamin Research by Suzuki Umetaro</image:caption>
+    </image:image>
+
     <video:video>
       <video:thumbnail_loc>http://jpopbooks.com/images/hinomaru.jpg</video:thumbnail_loc>
       <video:title>Hinomaru Hatanosuke - Official Manga Trailer</video:title>
