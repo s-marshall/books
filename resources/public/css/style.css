@@ -1,4 +1,4 @@
-body { font-family:Arial, sans-serif }
+body{ font-family:Arial, sans-serif;}
 h1, h2, h3, p { margin:0pt }
 
 p:first-child:first-letter{
@@ -11,3 +11,4 @@ p:first-child:first-letter{
   line-height : 0.85em;
   margin: 0.1em 0.06em 0 0;/*0.17em 0.09em 0 0;*/
 }
+
