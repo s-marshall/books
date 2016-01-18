@@ -30,6 +30,11 @@
     </image:image>
 
     <image:image>
+      <image:loc>http://jpopbooks.com/images/warship.jpg</image:loc>
+      <image:caption>Ebook cover of The Undersea Warship: A Fantastic Tale of Island Adventure by Oshikawa Shunro</image:caption>
+    </image:image>
+
+    <image:image>
       <image:loc>http://jpopbooks.com/images/baseball.jpg</image:loc>
       <image:caption>Ebook cover of BASEBALL by Masaoka Shiki</image:caption>
     </image:image>
