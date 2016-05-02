@@ -20,6 +20,11 @@
     </image:image>
 
     <image:image>
+      <image:loc>http://jpopbooks.com/images/pandora-goodbye.jpg</image:loc>
+      <image:caption>Paperback book cover of Pandora's Box with Bonus: Goodbye by Dazai Osamu</image:caption>
+    </image:image>
+
+    <image:image>
       <image:loc>http://jpopbooks.com/images/bored.jpg</image:loc>
       <image:caption>Ebook cover of The Bored Samurai by Sasaki Mitsuzo</image:caption>
     </image:image>
